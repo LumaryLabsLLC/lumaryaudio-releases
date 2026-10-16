@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+  <channel>
+    <title>Lumary Audio</title>
+    <item>
+      <title>Version 1.4.0</title>
+      <sparkle:version>1.4.0</sparkle:version>
+      <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <pubDate>Fri, 16 Oct 2026 15:31:03 +0000</pubDate>
+      <description sparkle:format="plain-text"><![CDATA[Lumary Audio 1.4
+
+Lumary Audio now keeps itself up to date.
+
+• It looks for a new version once a day and tells you on the device when there's one. Click UPDATE to download it, then INSTALL AND RELAUNCH to switch over. LATER asks again another day.
+
+• Check for Updates… in the app menu looks right away. Settings > General turns the daily check off or on.
+
+• It never interrupts a recording: an update found while a tape is running waits, and one that finishes downloading then installs when you quit.
+
+• Every update is signed, and checked against that signature before it installs.
+
+If you installed with Homebrew, brew upgrade still works too.
+
+Requires macOS 26 or later.]]></description>
+      <enclosure url="https://github.com/LumaryLabsLLC/lumaryaudio-releases/releases/download/v1.4.0/LumaryAudio-1.4.0.dmg" sparkle:edSignature="e6nSaqzOPnaEW42qAbQLmpBMEJMe9w2QKmcas+bgirmZHfmoNsMl1ET2lxTuNtYnzY0xGwXNB365GXXCbJsyDQ==" length="8083508" type="application/octet-stream" />
+    </item>
+  </channel>
+</rss>
