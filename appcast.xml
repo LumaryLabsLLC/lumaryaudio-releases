@@ -3,25 +3,19 @@
   <channel>
     <title>Lumary Audio</title>
     <item>
-      <title>Version 1.4.1</title>
-      <sparkle:version>1.4.1</sparkle:version>
-      <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
+      <title>Version 1.4.2</title>
+      <sparkle:version>1.4.2</sparkle:version>
+      <sparkle:shortVersionString>1.4.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <pubDate>Sun, 18 Oct 2026 16:41:54 -0500</pubDate>
-      <description sparkle:format="plain-text"><![CDATA[Lumary Audio 1.4.1
+      <pubDate>Sun, 18 Oct 2026 17:31:03 -0500</pubDate>
+      <description sparkle:format="plain-text"><![CDATA[Lumary Audio 1.4.2
 
-Fixes sound problems on macOS 27.
+Steadier when your audio setup changes.
 
-• With one interface as both your mic and your headphones, Live could be silent, or a take could come out sped up with a crackle. Both are fixed.
-
-• With the mic and headphones on different devices, the sound no longer clicks every few seconds.
-
-• If an interface ever drops audio this way again, Lumary Audio moves it to a safer path by itself, and a take always plays back at the speed you recorded it.
-
-Takes recorded with the problem can't be repaired: the missing audio was never captured.
+• Plugging a device in or out, changing the Mac's default input or output, and another app opening or closing the virtual mic are now handled in the background, so none of them can make Lumary Audio hang.
 
 Requires macOS 26 or later.]]></description>
-      <enclosure url="https://github.com/LumaryLabsLLC/lumaryaudio-releases/releases/download/v1.4.1/LumaryAudio-1.4.1.dmg" sparkle:edSignature="9dTPWh+UyUUuD/K9WUQ5Wog21SiRlROlGam5H9qgBK0O8LjP0ybiqvWoHC54xqOBisUs514pb2MUdHQbuccyDA==" length="8074183" type="application/octet-stream" />
+      <enclosure url="https://github.com/LumaryLabsLLC/lumaryaudio-releases/releases/download/v1.4.2/LumaryAudio-1.4.2.dmg" sparkle:edSignature="nWifMYaK9hhetSX5SI/cfIPCZar/7RTLK5wsqmhFiccXcjJze6mpgtWAIJ60ZBM11fOMmNsRCc/UnG+2UZqzDQ==" length="8079468" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
