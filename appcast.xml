@@ -3,27 +3,25 @@
   <channel>
     <title>Lumary Audio</title>
     <item>
-      <title>Version 1.4.0</title>
-      <sparkle:version>1.4.0</sparkle:version>
-      <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
+      <title>Version 1.4.1</title>
+      <sparkle:version>1.4.1</sparkle:version>
+      <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <pubDate>Fri, 16 Oct 2026 15:31:03 +0000</pubDate>
-      <description sparkle:format="plain-text"><![CDATA[Lumary Audio 1.4
+      <pubDate>Sun, 18 Oct 2026 16:41:54 -0500</pubDate>
+      <description sparkle:format="plain-text"><![CDATA[Lumary Audio 1.4.1
 
-Lumary Audio now keeps itself up to date.
+Fixes sound problems on macOS 27.
 
-• It looks for a new version once a day and tells you on the device when there's one. Click UPDATE to download it, then INSTALL AND RELAUNCH to switch over. LATER asks again another day.
+• With one interface as both your mic and your headphones, Live could be silent, or a take could come out sped up with a crackle. Both are fixed.
 
-• Check for Updates… in the app menu looks right away. Settings > General turns the daily check off or on.
+• With the mic and headphones on different devices, the sound no longer clicks every few seconds.
 
-• It never interrupts a recording: an update found while a tape is running waits, and one that finishes downloading then installs when you quit.
+• If an interface ever drops audio this way again, Lumary Audio moves it to a safer path by itself, and a take always plays back at the speed you recorded it.
 
-• Every update is signed, and checked against that signature before it installs.
-
-If you installed with Homebrew, brew upgrade still works too.
+Takes recorded with the problem can't be repaired: the missing audio was never captured.
 
 Requires macOS 26 or later.]]></description>
-      <enclosure url="https://github.com/LumaryLabsLLC/lumaryaudio-releases/releases/download/v1.4.0/LumaryAudio-1.4.0.dmg" sparkle:edSignature="e6nSaqzOPnaEW42qAbQLmpBMEJMe9w2QKmcas+bgirmZHfmoNsMl1ET2lxTuNtYnzY0xGwXNB365GXXCbJsyDQ==" length="8083508" type="application/octet-stream" />
+      <enclosure url="https://github.com/LumaryLabsLLC/lumaryaudio-releases/releases/download/v1.4.1/LumaryAudio-1.4.1.dmg" sparkle:edSignature="9dTPWh+UyUUuD/K9WUQ5Wog21SiRlROlGam5H9qgBK0O8LjP0ybiqvWoHC54xqOBisUs514pb2MUdHQbuccyDA==" length="8074183" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
