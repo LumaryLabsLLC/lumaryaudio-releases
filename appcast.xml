@@ -3,19 +3,25 @@
   <channel>
     <title>Lumary Audio</title>
     <item>
-      <title>Version 1.4.2</title>
-      <sparkle:version>1.4.2</sparkle:version>
-      <sparkle:shortVersionString>1.4.2</sparkle:shortVersionString>
+      <title>Version 1.4.3</title>
+      <sparkle:version>1.4.3</sparkle:version>
+      <sparkle:shortVersionString>1.4.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <pubDate>Sun, 18 Oct 2026 17:31:03 -0500</pubDate>
-      <description sparkle:format="plain-text"><![CDATA[Lumary Audio 1.4.2
+      <pubDate>Mon, 19 Oct 2026 10:33:03 -0500</pubDate>
+      <description sparkle:format="plain-text"><![CDATA[Lumary Audio 1.4.3
 
-Steadier when your audio setup changes.
+Cleaner high notes, and clearer channels on big interfaces.
 
-• Plugging a device in or out, changing the Mac's default input or output, and another app opening or closing the virtual mic are now handled in the background, so none of them can make Lumary Audio hang.
+• Saturation no longer adds off-key tones to high notes. TAPE, CASSETTE, TUBE and PENTODE stay clean even on the highest notes at full DRIVE.
+
+• CHANNEL is now IN CH, right under INPUT, and lists your interface's own names for its inputs, like Input 9 · Mic 9.
+
+• New OUT CH picks which outputs you listen on, for interfaces with more than two. Live and tape playback both play there, so headphones on outputs 11–12 just work.
+
+• With the source on auto, guitar notes played with vibrato are no longer mistaken for a voice.
 
 Requires macOS 26 or later.]]></description>
-      <enclosure url="https://github.com/LumaryLabsLLC/lumaryaudio-releases/releases/download/v1.4.2/LumaryAudio-1.4.2.dmg" sparkle:edSignature="nWifMYaK9hhetSX5SI/cfIPCZar/7RTLK5wsqmhFiccXcjJze6mpgtWAIJ60ZBM11fOMmNsRCc/UnG+2UZqzDQ==" length="8079468" type="application/octet-stream" />
+      <enclosure url="https://github.com/LumaryLabsLLC/lumaryaudio-releases/releases/download/v1.4.3/LumaryAudio-1.4.3.dmg" sparkle:edSignature="p028GQKi0yS9EJk7ZOHqO1qUcVmtj8B2dEnQCU7wG09pdMgIeiEM0Qem0xSHtreE1HSON8a7TFnSxm6IQMfXDg==" length="8071447" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
