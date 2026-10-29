@@ -3,31 +3,19 @@
   <channel>
     <title>Lumary Audio</title>
     <item>
-      <title>Version 1.5.0</title>
-      <sparkle:version>1.5.0</sparkle:version>
-      <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
+      <title>Version 1.5.1</title>
+      <sparkle:version>1.5.1</sparkle:version>
+      <sparkle:shortVersionString>1.5.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <pubDate>Thu, 29 Oct 2026 12:57:17 -0500</pubDate>
-      <description sparkle:format="plain-text"><![CDATA[Lumary Audio 1.5
+      <pubDate>Thu, 29 Oct 2026 13:20:30 -0500</pubDate>
+      <description sparkle:format="plain-text"><![CDATA[Lumary Audio 1.5.1
 
-Monitor: your headphones and speakers, corrected, for everything you hear.
+A small fix for Monitor.
 
-• New Monitor workspace (⌘3), beside Live and the Recorder. Turn MONITOR on and every app's sound goes through it: music, videos, your DAW, Live and tapes. Turn it off and nothing changes. It's in the menu bar too.
-
-• Pick your headphones from 690 models, from Sennheiser, Beyerdynamic and Audio-Technica to Meze, Focal, Audeze, HIFIMAN and AirPods Max, and Monitor corrects them to a neutral sound. Star your favorites to keep them at the top of the list.
-
-• TARGET chooses Harman's sound or a flatter bass, AMOUNT how much to correct, and CROSSFEED makes wide mixes feel less inside your head. On speakers, PLACEMENT takes out the bass a desk, a wall or a corner adds.
-
-• A 10- or 31-band EQ with presets for Rock, Pop, Jazz, Classical, Hip-Hop, Electronic and more. Drag the faders, or draw the curve right on the scope. BASS, TREBLE, BALANCE and VOLUME too.
-
-• Each output remembers its own settings, so your headphones and your speakers each sound right.
-
-• Only what you hear changes. Your recordings and the virtual mic stay exactly as they were.
-
-The first time you turn MONITOR on, macOS asks to let Lumary Audio record system audio. That's how it reaches other apps' sound. Nothing is recorded.
+• When you first turn MONITOR on, macOS asks to let Lumary Audio record system audio. That request now describes Monitor as it is: with MONITOR on, the sound of your other apps runs through your headphone or speaker correction. Nothing is recorded.
 
 Requires macOS 26 or later.]]></description>
-      <enclosure url="https://github.com/LumaryLabsLLC/lumaryaudio-releases/releases/download/v1.5.0/LumaryAudio-1.5.0.dmg" sparkle:edSignature="TyqaPVYb6ZACWJQakhtbbOZNPnPSmBY2r2iwzydY+7Xk8qup2anmGTtxkWBx8S0c+klxeZR4b8TpQsYwt4MNAQ==" length="8500099" type="application/octet-stream" />
+      <enclosure url="https://github.com/LumaryLabsLLC/lumaryaudio-releases/releases/download/v1.5.1/LumaryAudio-1.5.1.dmg" sparkle:edSignature="RBI6k4gtaDHBYetd/55iQA2mC1xlQexLkmRdrsP94hMV1AwyC6g9c6gdTWJHkyJWvCCx9IWIhqhdEeqWVM1VDg==" length="8500411" type="application/octet-stream" />
     </item>
   </channel>
 </rss>
